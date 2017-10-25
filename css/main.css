@@ -22,6 +22,7 @@ ul{
     padding: 0;
     margin: 0;
     overflow: auto;
+    margin-left: 5em;
     
 }
 
@@ -47,10 +48,29 @@ ul{
     background-color: #2C3E50;  
     padding: 2em;  
     text-transform: uppercase; 
+    font-family: 'Montserrat', sans-serif;
+    
+    
 }
 
+.cabecera a{
+    color:white;
+    font-weight: bold;
+}
+
+.cabecera .menu_izquierdo a{
+    font-size: 30px;
+}
+
+.cabecera .derecho a{
+    font-size: 18px;
+}
+
+
+
 .menu_derecho ul{
-    margin-left: 40em;
+    margin-left: 30em;
+    padding-bottom: 1em;
 }
 .menu_derecho li{
     margin-right: 2em;
@@ -58,7 +78,6 @@ ul{
 
 *{
     margin: 0;
-    color:white;
 }
 
 hr{
