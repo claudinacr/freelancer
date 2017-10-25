@@ -1,40 +1,38 @@
-/*
+    /*
  * Estilos de tu proyecto
  */
-a{
+
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
-    overflow: hidden;/*me permite que mi contenido no colapse.*/
-
+    overflow: hidden;
+    /*me permite que mi contenido no colapse.*/
 }
 
-.menu_izquierdo{
+.menu_izquierdo {
     display: inline-block;
     border: 1px blue solid;
     padding: 0;
     margin: 0;
     overflow: auto;
     margin-left: 5em;
-    
 }
 
-.menu_derecho{
+.menu_derecho {
     display: inline-block;
     border: 1px blue solid;
     margin-right: auto;
-    
-    
 }
 
-.menu_derecho li{
+.menu_derecho li {
     list-style: none;
     color: black;
     float: left;
@@ -43,163 +41,184 @@ ul{
     margin: 0;
 }
 
-.cabecera{
+.cabecera {
     border: 1px blue solid;
-    background-color: #2C3E50;  
-    padding: 2em;  
-    text-transform: uppercase; 
+    background-color: #2C3E50;
+    padding: 2em;
+    text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    
-    
 }
 
-.cabecera a{
-    color:white;
+.cabecera a {
+    color: white;
     font-weight: bold;
 }
 
-.cabecera .menu_izquierdo a{
+.cabecera .menu_izquierdo a {
     font-size: 30px;
 }
 
-.cabecera .derecho a{
+.cabecera .derecho a {
     font-size: 18px;
 }
 
-
-
-.menu_derecho ul{
+.menu_derecho ul {
     margin-left: 30em;
-    padding-bottom: 1em;
+    padding-bottom: 7px;
 }
-.menu_derecho li{
+
+.menu_derecho li {
     margin-right: 2em;
 }
 
-*{
-    margin: 0;
+.Introduccion {
+    font-family: 'Montserrat', sans-serif;
 }
 
-hr{
-    height: 7px;
-    width: 50px;
-    border-radius: 5px;
-    background-color: black;
-    margin-left: 0;
-  }
-
-.Introduccion .linea_decorada a hr{
-    display: inline-block;
-    border: 1px blue solid;
-    
+.Introduccion li a h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
-.Introduccion{
-    text-align: center;
-    background-color: #18BC9C;
-    padding: 7em;
+.Introduccion .linea_decorada i {
+    font-size: 50px;
+    color: white;
 }
 
-.portafolio_titulo .linea_decorada a hr{
-    display: inline-block;
-    border: 1px blue solid;
+.portafolio .portafolio_titulo ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #2C3E50;
+    text-transform: uppercase;
 }
 
-.portafolio_fila1 li img{
-    width: 353px;
-    height: 261;
-}
+.portafolio_titulo .linea_decorada li a hr {
+        color: #2C3E50;
+    }
+    .Introduccion li a h3 {
+        font-size: 30px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        padding-top: 1em;
+    }
+    * {
+        margin: 0;
+    }
+    hr {
+        height: 7px;
+        width: 50px;
+        border-radius: 5px;
+        background-color: white;
+        margin-left: 0;
+    }
+    .Introduccion .linea_decorada a hr {
+        display: inline-block;
+        border: 1px blue solid;
+    }
+    .Introduccion {
+        text-align: center;
+        background-color: #18BC9C;
+        padding: 7em;
+    }
+    .portafolio_titulo .linea_decorada a hr {
+        display: inline-block;
+        border: 1px blue solid;
+    }
+    .portafolio_fila1 li img {
+        width: 353px;
+        height: 261;
+    }
+    .portafolio_fila2 li img {
+        width: 353px;
+        height: 261;
+    }
+    .portafolio_fila1 li {
+        float: left;
+        padding: 1em;
+    }
+    .portafolio_fila2 li {
+        float: left;
+        padding: 1em;
+    }
+    .portafolio_titulo {
+        text-align: center;
+    }
+    .portfolio_imagenes {
+        margin-left: 7%;
+    }
+    .portafolio {
+        padding-top: 10em;
+        padding-bottom: 7em;
+    }
+    .textos_about li p {
 
-.portafolio_fila2 li img{
-    width: 353px;
-    height: 261;
-}
+        width: 350px;
+        height: 200px;
+        line-height: 1.5em;
+    }
+    .textos_about li {
+        float: left;
+        padding: 2em;
+    }
+    .titulo_about {
+        text-align: center;
+    }
+    .textos_about {
+        margin-left: 15%;
+    }
+    .about {
+        background-color: #18BC9C;
+        padding: 5em;
+    }
+    .about_boton {
+        border: 1px blue solid;
+        display: inline-block;
+        padding: 1em;
+    }
+    .about_boton {
+        text-align: center;
+        margin-left: 32em;
+    }
+    .titulo_about .linea_decorada a hr {
+        display: inline-block;
+    }
+    .contact_me {
+        padding: 5em;
+    }
+    .contact_titulo {
+        padding-bottom: 1em;
+    }
+    .contact_me li {
+        padding: 1em;
+    }
+    .pie_pagina {
+        background-color: #2C3E50;
+    }
 
-.portafolio_fila1 li{
-    float: left;
-    padding: 1em;
-}
+    .titulo_about ul li a h2{
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        color: white;
 
-.portafolio_fila2 li{
-    float: left;
-    padding: 1em;
-    
-}
+    }
 
-.portafolio_titulo{
-    text-align: center;
-}
+    .textos_about{
+        font-family: 'Lato', sans-serif;
+        
+        font-size: 20px;
+        color: white;
+    }
 
-.portfolio_imagenes{
-    margin-left: 7%;
-}
-
-.portafolio{
-    padding-top: 10em;
-    padding-bottom: 7em;
-}
-
-.textos_about li p{
-    width: 350px;
-    height: 177px;
-    
-}
-
-.textos_about li{
-    float: left; 
-    padding: 2em;   
-}
-
-.titulo_about{
-    text-align: center;
-}
-
-.textos_about{
-    margin-left: 15%;
-}
-
-.about{
-    background-color: #18BC9C;
-    padding: 5em;
-}
-
-.about_boton{
-    border: 1px blue solid;
-    display: inline-block;
-    padding: 1em;
-}
-
-.about_boton{
-    text-align: center;
-    margin-left: 32em;
-    
-}
-
-.titulo_about .linea_decorada a hr{
-    display:inline-block;
-}
-
-.contact_me{
-    padding: 5em;
-    
-}
-
-.contact_titulo{
-    padding-bottom: 1em;
-}
-
-.contact_me li{
-    padding: 1em;
-}
-
-.pie_pagina{
-    background-color: #2C3E50;
-}
-
-
-
-
-
-
-
-
+    .about_boton ul li a{
+        font-family: 'Lato', sans-serif;
+        
+        font-size: 20px;
+        color: white;
+    }
