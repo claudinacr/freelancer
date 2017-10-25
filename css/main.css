@@ -1,3 +1,186 @@
 /*
  * Estilos de tu proyecto
  */
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;/*me permite que mi contenido no colapse.*/
+
+}
+
+.menu_izquierdo{
+    display: inline-block;
+    border: 1px blue solid;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    
+}
+
+.menu_derecho{
+    display: inline-block;
+    border: 1px blue solid;
+    margin-right: auto;
+    
+    
+}
+
+.menu_derecho li{
+    list-style: none;
+    color: black;
+    float: left;
+    border: 1px blue solid;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecera{
+    border: 1px blue solid;
+    background-color: #2C3E50;  
+    padding: 2em;  
+    text-transform: uppercase; 
+}
+
+.menu_derecho ul{
+    margin-left: 40em;
+}
+.menu_derecho li{
+    margin-right: 2em;
+}
+
+*{
+    margin: 0;
+    color:white;
+}
+
+hr{
+    height: 7px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: black;
+    margin-left: 0;
+  }
+
+.Introduccion .linea_decorada a hr{
+    display: inline-block;
+    border: 1px blue solid;
+    
+}
+
+.Introduccion{
+    text-align: center;
+    background-color: #18BC9C;
+    padding: 7em;
+}
+
+.portafolio_titulo .linea_decorada a hr{
+    display: inline-block;
+    border: 1px blue solid;
+}
+
+.portafolio_fila1 li img{
+    width: 353px;
+    height: 261;
+}
+
+.portafolio_fila2 li img{
+    width: 353px;
+    height: 261;
+}
+
+.portafolio_fila1 li{
+    float: left;
+    padding: 1em;
+}
+
+.portafolio_fila2 li{
+    float: left;
+    padding: 1em;
+    
+}
+
+.portafolio_titulo{
+    text-align: center;
+}
+
+.portfolio_imagenes{
+    margin-left: 7%;
+}
+
+.portafolio{
+    padding-top: 10em;
+    padding-bottom: 7em;
+}
+
+.textos_about li p{
+    width: 350px;
+    height: 177px;
+    
+}
+
+.textos_about li{
+    float: left; 
+    padding: 2em;   
+}
+
+.titulo_about{
+    text-align: center;
+}
+
+.textos_about{
+    margin-left: 15%;
+}
+
+.about{
+    background-color: #18BC9C;
+    padding: 5em;
+}
+
+.about_boton{
+    border: 1px blue solid;
+    display: inline-block;
+    padding: 1em;
+}
+
+.about_boton{
+    text-align: center;
+    margin-left: 32em;
+    
+}
+
+.titulo_about .linea_decorada a hr{
+    display:inline-block;
+}
+
+.contact_me{
+    padding: 5em;
+    
+}
+
+.contact_titulo{
+    padding-bottom: 1em;
+}
+
+.contact_me li{
+    padding: 1em;
+}
+
+.pie_pagina{
+    background-color: #2C3E50;
+}
+
+
+
+
+
+
+
+
