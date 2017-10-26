@@ -380,10 +380,16 @@ font-size: 18px;
     margin: 5px;
     color: white;
     border-radius: 200px 200px 200px 200px;
+    border-color: 1px white solid;
+    
 }
 
-.titulos_sencillo td a span i .fa{
-    padding: 5px 5px 5px 5px;
+.titulos_sencillo span i{
+
+    width: 30px;
+    height: 30px;
+    border-color: 1px red solid;
+    
     
 }
 
@@ -391,6 +397,13 @@ font-size: 18px;
     display: inline-block;
     margin-bottom: 15px;
 }
+
+.contact_me .linea2{
+    display: inline-block;
+
+}
+
+
 
 
 
