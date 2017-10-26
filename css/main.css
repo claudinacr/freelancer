@@ -1,4 +1,4 @@
-    /*
+/*
  * Estilos de tu proyecto
  */
 
@@ -19,16 +19,16 @@
 
     .menu_izquierdo {
         display: inline-block;
-        border: 1px blue solid;
+        /*border: 1px blue solid;
         padding: 0;
         margin: 0;
         overflow: auto;
-        margin-left: 5em;
+        margin-left: 5em;*/
     }
 
     .menu_derecho {
         display: inline-block;
-        border: 1px blue solid;
+        /*border: 1px blue solid;*/
         margin-right: auto;
     }
 
@@ -36,13 +36,13 @@
         list-style: none;
         color: black;
         float: left;
-        border: 1px blue solid;
+        /*border: 1px blue solid;*/
         padding: 0;
         margin: 0;
     }
 
     .cabecera {
-        border: 1px blue solid;
+        /*border: 1px blue solid;*/
         background-color: #2C3E50;
         padding: 2em;
         text-transform: uppercase;
@@ -192,7 +192,7 @@
     }
 
     .about_boton {
-        border: 1px blue solid;
+        /*border: 1px blue solid;*/
         display: inline-block;
         padding: 1em;
     }
@@ -325,85 +325,59 @@
         padding-top: 3em;
         padding-left: 14em;
         padding-right: 14em;
-
-    }
-    table tr td{
-        width: 28%;
-   
-        border: 1px black solid;
-        
+        border: 0;
     }
 
-  footer{
-      width: 100%;
-      height: 30em;
-      background-color: #2C3E50;
-      font-family: 'Montserrat', sans-serif;
-      color: white;
-      
-
-  }
-
-  footer .titulos_tabla{
+    table td {
+        border: 0;
+    }
+}
+table tr td {
+    width: 28%;
+    border: 1px black solid;
+}
+footer {
+    width: 100%;
+    height: 30em;
+    background-color: #2C3E50;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+footer .titulos_tabla {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    
-  }
-
-
-
-  footer .titulos_sencillo{
-
-font-size: 18px;
-
+}
+footer .titulos_sencillo {
+    font-size: 18px;
     text-align: center;
-  }
-
- 
-
-  footer .tabla2{
-      margin-top: 5em;
-      padding-bottom: 2em;
-      text-align: center;
-      font-size: 14px; 
-    
-  }
-
-  .titulos_sencillo a{
-      color: #18BC9C;
-  }
-
-  .titulos_sencillo td a{
+}
+footer .tabla2 {
+    margin-top: 5em;
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: 14px;
+}
+.titulos_sencillo a {
+    color: #18BC9C;
+}
+.titulos_sencillo td a {
     font-size: 20px;
     margin: 5px;
     color: white;
     border-radius: 200px 200px 200px 200px;
     border-color: 1px white solid;
-    
 }
-
-.titulos_sencillo span i{
-
+.titulos_sencillo span i {
     width: 30px;
     height: 30px;
-    border-color: 1px red solid;
-    
-    
+    /*border-color: 1px red solid;*/
 }
-
-.linea_decorada .linea{
+.linea_decorada .linea {
     display: inline-block;
     margin-bottom: 15px;
 }
-
-.contact_me .linea2{
+.contact_me .linea2 {
     display: inline-block;
-
 }
-
-
-
-
-
