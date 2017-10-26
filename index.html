@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -51,17 +52,20 @@
                 </li>
                 <li>
                     <a href="#">
+
                         <h1>start bootstrap</h1>
                     </a>
 
                 </li>
 
                 <li class="linea_decorada">
+
+                    <div class="linea"></div>
                     <a href="#">
-                        <hr>
                         <i class="fa fa-star" aria-hidden="true"></i>
-                        <hr>
                     </a>
+                    <div class="linea"></div>
+
 
 
                 </li>
@@ -85,9 +89,9 @@
                     </li>
                     <li class="linea_decorada">
                         <a href="#">
-                            <hr>
+                            <div class="linea2"></div>
                             <i class="fa fa-star" aria-hidden="true"></i>
-                            <hr>
+                            <div class="linea2"></div>
                         </a>
                     </li>
                 </ul>
@@ -152,9 +156,9 @@
                     </li>
                     <li class="linea_decorada">
                         <a href="#">
-                            <hr>
+                            <div class="linea"></div>
                             <i class="fa fa-star" aria-hidden="true"></i>
-                            <hr>
+                            <div class="linea"></div>
                         </a>
                     </li>
                 </ul>
@@ -168,7 +172,6 @@
                         </p>
                     </li>
                     <li>
-
                         <p>
                             Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking
                             to share your projects, this template is the perfect starting point!
@@ -180,7 +183,9 @@
             <div class="about_boton">
                 <ul>
                     <li>
-                        <a href="#">Download Theme</a>
+                        <a class="boton" href="#">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            Download Theme</a>
                     </li>
                 </ul>
             </div>
@@ -202,27 +207,32 @@
                 <ul>
                     <li>
                         <input id="email" type="text" class="form-control" name="Name" placeholder="Name" />
+                        <div class="esp"></div>
                         <hr>
                     </li>
 
                     <li>
                         <input id="email" type="text" class="form-control" name="Email Address" placeholder="Email Address" />
+                        <div class="esp"></div>
                         <hr>
                     </li>
                     <li>
-                        <input id="email" type="text" class="form-control" name="Phone Number" placeholder="Phone Number" />
+                        <input id="email" type="text" class="form-control" name="Phone Number" placeholder="Phone Number" width="228px" height="98px"
+                            size="32" />
+                        <div class="esp"></div>
                         <hr>
                     </li>
                     <li>
                         <input id="email" type="text" class="form-control" name="Message" placeholder="Message" />
-                        <hr>
+
 
                     </li>
 
                     <li class="contact_send">
-                        <hr>
 
-                        <p>Send</p>
+                        <a href="#">
+                            <p>Send</p>
+                        </a>
                     </li>
                 </ul>
 
@@ -233,66 +243,31 @@
     </section>
 
     <footer>
-        <!-- Pie de Página -->
+        <table>
+            <tr class="titulos_tabla">
+                <td>Location</td>
+                <td>Around the Web</td>
+                <td>About Freelancer</td>
+            </tr>
+            <tr class="titulos_sencillo">
+                <td>3481 Melrose Place
+                    <br> Beverly Hills, CA 90210</td>
+                <td><a href=""><span><i class="fa fa-facebook" aria-hidden="true"></span></i></a><a href=""><span><i class="fa fa-google-plus" aria-hidden="true"></i></span></a><a href=""><span><i class="fa fa-twitter" aria-hidden="true"></span></i></a><a href=""><span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span></a><a href=""><span><i class="fa fa-futbol-o" aria-hidden="true"></i></span></a>
+                    
+                    
+                    
+                    
+                </td>
+                <td>Freelance is a free to use, open source Bootstrap theme created <a href="#"> by Start Bootstrap</a>.</td>
+            </tr>
+            
+        <br><br><br><br><br><br>
+            
+        </table>
 
-
-        <div class="pie_pagina">
-            <div class="location">
-                <div class="titulo_pie">
-                    <ul>
-                        <li>Location</li>
-                    </ul>
-                </div>
-
-                <div texto_pie>
-                    <ul>
-                        <li>
-                            <p>3481 Melrose Place </p>
-                        </li>
-                        <li>
-                            <p>Beverly Hills, CA 90210 </p>
-                        </li>
-                    </ul>
-
-                </div>
-
-            </div>
-            <div class="arround_web">
-                <div class="arround_pie">
-                    <ul>
-                        <li>Around the Web</li>
-                    </ul>
-                </div>
-
-                <div texto_pie>
-                    <ul>
-                        <li>
-                            <p>iconos</p>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-            <div class="about_freelancer">
-                <ul>
-                    <li>About FreelancerFreelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</li>
-                </ul>
-            </div>
-
-            <div texto_pie>
-                <ul>
-                    <li>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-        <div class="copiright">
-            <p>Copyright © Your Website 2017 </p>
-        </div>
-        </div>
-
+        <table class="tabla2">
+            <tr><td>Copyright © Your Website 2017 </td></tr>
+        </table>
     </footer>
 </body>
 
