@@ -2,335 +2,342 @@
  * Estilos de tu proyecto
  */
 
-    a {
-        text-decoration: none;
-    }
+a {
+    text-decoration: none;
+}
 
-    li {
-        list-style: none;
-    }
+li {
+    list-style: none;
+}
 
-    ul {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        /*me permite que mi contenido no colapse.*/
-    }
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*me permite que mi contenido no colapse.*/
+}
 
-    .menu_izquierdo {
-        display: inline-block;
-        /*border: 1px blue solid;
+.menu_izquierdo {
+    display: inline-block;
+    /*border: 1px blue solid;
         padding: 0;
         margin: 0;
         overflow: auto;
         margin-left: 5em;*/
-    }
+}
 
-    .menu_derecho {
-        display: inline-block;
-        /*border: 1px blue solid;*/
-        margin-right: auto;
-    }
+.menu_derecho {
+    display: inline-block;
+    /*border: 1px blue solid;*/
+    margin-right: auto;
+}
 
-    .menu_derecho li {
-        list-style: none;
-        color: black;
-        float: left;
-        /*border: 1px blue solid;*/
-        padding: 0;
-        margin: 0;
-    }
+.menu_derecho li {
+    list-style: none;
+    color: black;
+    float: left;
+    /*border: 1px blue solid;*/
+    padding: 0;
+    margin: 0;
+}
 
-    .cabecera {
-        /*border: 1px blue solid;*/
-        background-color: #2C3E50;
-        padding: 2em;
-        text-transform: uppercase;
-        font-family: 'Montserrat', sans-serif;
-    }
+.cabecera {
+    /*border: 1px blue solid;*/
+    background-color: #2C3E50;
+    padding: 2em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    .cabecera a {
-        color: white;
-        font-weight: bold;
-    }
+.cabecera a {
+    color: white;
+    font-weight: bold;
+}
 
-    .cabecera .menu_izquierdo a {
-        font-size: 30px;
-    }
+.cabecera .menu_izquierdo a {
+    font-size: 30px;
+}
 
-    .cabecera .derecho a {
-        font-size: 18px;
-    }
+.cabecera .derecho a {
+    font-size: 18px;
+}
 
-    .menu_derecho ul {
-        margin-left: 30em;
-        padding-bottom: 7px;
-    }
+.menu_derecho ul {
+    margin-left: 30em;
+    padding-bottom: 7px;
+}
 
-    .menu_derecho li {
-        margin-right: 2em;
-    }
+.menu_derecho li {
+    margin-right: 2em;
+}
 
-    .Introduccion {
-        font-family: 'Montserrat', sans-serif;
-    }
+.Introduccion {
+    font-family: 'Montserrat', sans-serif;
+}
 
-    .Introduccion li a h1 {
-        font-size: 70px;
-        text-transform: uppercase;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-    }
+.Introduccion li a h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
 
-    .Introduccion .linea_decorada i {
-        font-size: 50px;
-        color: white;
-    }
+.Introduccion .linea_decorada i {
+    font-size: 50px;
+    color: white;
+}
 
-    .portafolio .portafolio_titulo ul li a {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        font-size: 50px;
-        color: #2C3E50;
-        text-transform: uppercase;
-    }
+.portafolio .portafolio_titulo ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #2C3E50;
+    text-transform: uppercase;
+}
 
-    .portafolio_titulo .linea_decorada li a hr {
-        color: #2C3E50;
-    }
+.portafolio_titulo .linea_decorada li a hr {
+    color: #2C3E50;
+}
 
-    .Introduccion li a h3 {
-        font-size: 30px;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Lato', sans-serif;
-        font-weight: normal;
-        padding-top: 1em;
-    }
+.Introduccion li a h3 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    padding-top: 1em;
+}
 
-    * {
-        margin: 0;
-    }
+* {
+    margin: 0;
+}
 
-    hr {
-        height: 1px;
-        width: 800px;
-        border-radius: 5px;
-        background-color: white;
-        margin-left: 0;
-        color: #f8fafc;
-    }
+hr {
+    height: 1px;
+    width: 800px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 0;
+    color: #f8fafc;
+}
 
-    .Introduccion .linea_decorada a div {
-        display: inline-block;
-        /*border: 1px blue solid;*/
-        margin-bottom: 10px;
-    }
+.Introduccion .linea_decorada a div {
+    display: inline-block;
+    /*border: 1px blue solid;*/
+    margin-bottom: 10px;
+}
 
-    .Introduccion {
-        text-align: center;
-        background-color: #18BC9C;
-        padding: 7em;
-    }
+.Introduccion {
+    text-align: center;
+    background-color: #18BC9C;
+    padding: 7em;
+}
 
-    .portafolio_fila1 li img {
-        width: 353px;
-        height: 261;
-    }
+.portafolio_fila1 li img {
+    width: 353px;
+    height: 261;
+}
 
-    .portafolio_fila2 li img {
-        width: 353px;
-        height: 261;
-    }
+.portafolio_fila2 li img {
+    width: 353px;
+    height: 261;
+}
 
-    .portafolio_fila1 li {
-        float: left;
-        padding: 1em;
-    }
+.portafolio_fila1 li {
+    float: left;
+    padding: 1em;
+}
 
-    .portafolio_fila2 li {
-        float: left;
-        padding: 1em;
-    }
+.portafolio_fila2 li {
+    float: left;
+    padding: 1em;
+}
 
-    .portafolio_titulo {
-        text-align: center;
-    }
+.portafolio_titulo {
+    text-align: center;
+}
 
-    .portfolio_imagenes {
-        margin-left: 7%;
-    }
+.portfolio_imagenes {
+    margin-left: 7%;
+}
 
-    .portafolio {
-        padding-top: 7em;
-        padding-bottom: 7em;
-    }
+.portafolio {
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
 
-    .textos_about li p {
-        width: 350px;
-        height: 200px;
-        line-height: 1.5em;
-    }
+.textos_about li p {
+    width: 350px;
+    height: 200px;
+    line-height: 1.5em;
+}
 
-    .textos_about li {
-        float: left;
-        padding: 2em;
-    }
+.textos_about li {
+    float: left;
+    padding: 2em;
+}
 
-    .titulo_about {
-        text-align: center;
-    }
+.titulo_about {
+    text-align: center;
+}
 
-    .textos_about {
-        margin-left: 15%;
-    }
+.textos_about {
+    margin-left: 15%;
+}
 
-    .about {
-        background-color: #18BC9C;
-        padding: 5em;
-    }
+.about {
+    background-color: #18BC9C;
+    padding: 5em;
+}
 
-    .about_boton {
-        /*border: 1px blue solid;*/
-        display: inline-block;
-        padding: 1em;
-    }
+.about_boton {
+    /*border: 1px blue solid;*/
+    display: inline-block;
+    padding: 1em;
+}
 
-    .about_boton {
-        text-align: center;
-        margin-left: 32em;
-    }
+.about_boton {
+    text-align: center;
+    margin-left: 32em;
+}
 
-    .contact_me {
-        padding: 5em;
-    }
+.contact_me {
+    padding: 5em;
+}
 
-    .contact_titulo {
-        padding-bottom: 1em;
-    }
+.contact_titulo {
+    padding-bottom: 1em;
+    color:#2C3E50;
+}
+.contact_titulo a{
+  text-decoration: none;
+  color:#2C3E50;
+}
 
-    .contact_me li {
-        padding: 1em;
-    }
+.contact_me li {
+    padding: 1em;
+}
 
-    .pie_pagina {
-        background-color: #2C3E50;
-    }
+.pie_pagina {
+    background-color: #2C3E50;
+}
 
-    .titulo_about ul li a h2 {
-        text-transform: uppercase;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 50px;
-        color: white;
-    }
+.titulo_about ul li a h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: white;
+}
 
-    .textos_about {
-        font-family: 'Lato', sans-serif;
-        font-size: 20px;
-        color: white;
-    }
+.textos_about {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
+}
 
-    .about_boton ul li a {
-        font-family: 'Lato', sans-serif;
-        font-size: 20px;
-        color: white;
-    }
+.about_boton ul li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
+}
 
-    .linea {
-        width: 5em;
-        padding: 0.15em;
-    }
+.linea {
+    width: 5em;
+    padding: 0.15em;
+}
 
-    .Introduccion .linea {
-        background-color: white;
-    }
+.Introduccion .linea {
+    background-color: white;
+}
 
-    .linea2 {
-        width: 1.5em;
-        padding: 3px;
-        background-color: #2C3E50;
-    }
+.linea2 {
+    width: 1.5em;
+    padding: 3px;
+    background-color: #2C3E50;
+}
 
-    .portafolio .linea_decorada .linea2 {
-        display: inline-block;
-        margin-bottom: 0.25em;
-    }
+.portafolio .linea_decorada .linea2 {
+    display: inline-block;
+    margin-bottom: 0.25em;
+}
 
-    .titulo_about .linea {
-        background-color: white;
-    }
+.titulo_about .linea {
+    background-color: white;
+}
 
-    .about .linea_decorada .linea {
-        display: inline-block;
-        margin-bottom: 0.80em;
-    }
+.about .linea_decorada .linea {
+    display: inline-block;
+    margin-bottom: 0.80em;
+}
 
-    .about .linea_decorada i {
-        font-size: 50px;
-        color: white;
-    }
+.about .linea_decorada i {
+    font-size: 50px;
+    color: white;
+}
 
-    .about_boton {
-        font-weight: bold;
-        border-radius: 5px 5px 5px 5px;
-        border-color: white;
-        display: inline-block;
-    }
+.about_boton {
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    border-color: white;
+    display: inline-block;
+}
 
-    .about_boton li {
-        /*outline: 1px red solid;*/
-        width: 200px;
-        display: block;
-        text-align: center;
-    }
+.about_boton li {
+    /*outline: 1px red solid;*/
+    width: 200px;
+    display: block;
+    text-align: center;
+}
 
-    .contact_titulo {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        font-size: 37px;
-        color: #2C3E50;
-        text-transform: uppercase;
-        text-align: center;
-    }
+.contact_titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    color: #2C3E50;
+    text-transform: uppercase;
+    text-align: center;
+}
 
-    .contact_formulario {
-        margin-left: 150px;
-    }
+.contact_formulario {
+    margin-left: 150px;
+}
 
-    .contact_formulario input {
-        border: none;
-    }
+.contact_formulario input {
+    border: none;
+}
 
-    .esp {
-        margin: 2em;
-    }
+.esp {
+    margin: 2em;
+}
 
-    .contact_send {
-        width: 40px;
-        height: 20px;
-        background-color: #18BC9C;
-        border-radius: 5px 5px 5px 5px;
-        font-family: 'Montserrat', sans-serif;
-    }
+.contact_send {
+    width: 40px;
+    height: 20px;
+    background-color: #18BC9C;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    .contact_send a {
-        color: white;
-    }
+.contact_send a {
+    color: white;
+}
 
-    table {
-        background-color: #2C3E50;
-        border: 1px black solid;
-        width: 100%;
-        padding-top: 3em;
-        padding-left: 14em;
-        padding-right: 14em;
-        border: 0;
-    }
+table {
+    background-color: #2C3E50;
+    border: 1px black solid;
+    width: 100%;
+    padding-top: 3em;
+    padding-left: 14em;
+    padding-right: 14em;
+    border: 0;
+}
 
-    table td {
-        border: 0;
-    }
+table td {
+    border: 0;
+}
+
+
 }
 table tr td {
     width: 28%;
@@ -381,3 +388,135 @@ footer .tabla2 {
 .contact_me .linea2 {
     display: inline-block;
 }
+::-webkit-input-placeholder { font-size: 16px; }
+::-moz-placeholder { font-size: 16px; } /* firefox 19+ */
+:-ms-input-placeholder { font-size: 16px; } /* ie */
+input:-moz-placeholder { font-size: 16px; }
+
+
+footer {
+    box-sizing: border-box;
+    /* border: 1px green solid; */
+    text-align: center;
+    display: block;
+    height: 340px;
+}
+.top h2 {
+    margin-bottom: 30px;
+}
+.top .columna:last-child p {
+    box-sizing: border-box;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.top {
+    padding-top: 50px;
+    box-sizing: border-box;
+    /* border: 1px pink solid; */
+    text-align: center;
+}
+.wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* border: 1px red solid; */
+}
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.fila>div {
+    display: inline-block;
+    box-sizing: border-box;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 380px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+}
+.columna ul {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.columna ul li {
+    box-sizing: border-box;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.columna ul li a {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px white solid;
+    padding-top: 13px;
+    color: white;
+    transition: background-color 0.3s, width ease-in-out 0.4s,height ease-in-out 0.4s;
+    
+}
+.columna ul li a:hover {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    color: #128F76;
+}
+.bottom {
+    /* border: 1px pink solid; */
+    padding: 40px;
+    max-height: 100;
+}
+
+/* footer>div {
+    width: 30%;
+    display: inline-block;
+    border: 1px blue solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+footer .columna div:first-child {
+    border: 1px pink solid;
+}
+footer .columna div:last-child {
+    padding: 30%;
+}
+footer .columna div ul li {
+    display: inline-block;
+} */
+
+/* footer .columna1{
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+footer .columna2{
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+footer .columna3{
+    width: 20%;
+    margin: 0;
+
+    padding: 0;
+}
+  
+.columna2 li{
+    float: left;
+} */
