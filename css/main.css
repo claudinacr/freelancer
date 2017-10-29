@@ -1,30 +1,78 @@
-/*
- * Estilos de tu proyecto
- */
+﻿/*ETIQUETAS PARA LA CABECERA*/
+
+
+/* El atributo text-decoration permite quitar el subrayado que la etiqueta <a> tiene por defecto*/
+
+* {
+    margin: 0;
+}
 
 a {
     text-decoration: none;
 }
 
+
+/* El atributo list-style permite quitar las viñetas que la etiqueta <li> tiene por defecto*/
+
 li {
     list-style: none;
 }
+
+
+/* Se definen determinados atributos a la etiqueta ul*/
+
+
+/*El atributo (overflow: hidden) permite que el contenido no colapse.*/
 
 ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*me permite que mi contenido no colapse.*/
 }
+
+
+/* Se definen determinados atributos a la cabecera. Color de fondo, padding, uppercase y la fuente*/
+
+.cabecera {
+    /*border: 1px blue solid;*/
+    background-color: #2C3E50;
+    padding: 21px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Se define el color de letra de los enlaces de la cabecera y su grosor*/
+
+.cabecera a {
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Se define el tamaño de la fuente del enlace del lado izquierdo. */
+
+.cabecera .menu_izquierdo a {
+    font-size: 26px;
+}
+
+
+/* Se define el tamaño de la fuente de los enlaces del lado derecho. */
+
+.cabecera .derecho a {
+    font-size: 14px;
+}
+
+
+/* Se definen determinados atributos al margen izquierdo*/
 
 .menu_izquierdo {
     display: inline-block;
-    /*border: 1px blue solid;
-        padding: 0;
-        margin: 0;
-        overflow: auto;
-        margin-left: 5em;*/
+    margin-left: 120px;
 }
+
+
+/* Se definen determinados atributos al margen derecho*/
 
 .menu_derecho {
     display: inline-block;
@@ -32,50 +80,68 @@ ul {
     margin-right: auto;
 }
 
+
+/* Se definen determinados atributos a cada li de la lista del menu derecho*/
+
 .menu_derecho li {
     list-style: none;
     color: black;
+    /*La propiedad Float permitió flotar los elementos li para ajustar el menú al diseño deseado*/
     float: left;
     /*border: 1px blue solid;*/
-    padding: 0;
-    margin: 0;
+    margin-left: 0.9em;
 }
 
-.cabecera {
-    /*border: 1px blue solid;*/
-    background-color: #2C3E50;
-    padding: 2em;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+
+/* Se definen determinados atributos a los enlaces, el color de la fuente y el grosor de la misma*/
+
+
+/* Se define el comportamiento de los enlaces del lado derecho. Cuando el cursor del mouse este sobre cada enlace, éste cambia de color blanco a verde. */
+
+.menu_derecho a:hover {
+    color: #18BC9C;
 }
 
-.cabecera a {
-    color: white;
-    font-weight: bold;
-}
 
-.cabecera .menu_izquierdo a {
-    font-size: 30px;
-}
-
-.cabecera .derecho a {
-    font-size: 18px;
-}
+/* Se definen estilos al menu del lado derecho. Se establece un margen izquierdo y un padding inferior*/
 
 .menu_derecho ul {
     margin-left: 30em;
-    padding-bottom: 7px;
+    padding-bottom: 4px;
 }
 
-.menu_derecho li {
-    margin-right: 2em;
+
+/* Se define un margen derecho al link derecho*/
+
+.menu_derecho h2 {
+    margin-right: 16px;
 }
 
-.Introduccion {
-    font-family: 'Montserrat', sans-serif;
+
+/* Fin de estilos de la cabecera*/
+
+
+/*ETIQUETAS PARA LA SECCIÓN PRESENTACIÓN*/
+
+.presentacion {
+    text-align: center;
+    background-color: #18BC9C;
+    padding: 6.1em;
+    color: white;
 }
 
-.Introduccion li a h1 {
+
+/* Se le añade al selector descendiente un padding inferior*/
+
+.logo_bob {
+    padding-bottom: 1.2em;
+    /*border: 1px magenta solid;*/
+}
+
+
+/* Se le añade al titulo h1, un tamaño de letra,un estilo a las letras, color, tipografia y grosor de letra.*/
+
+.presentacion div:nth-child(2) h1 {
     font-size: 70px;
     text-transform: uppercase;
     color: white;
@@ -83,266 +149,261 @@ ul {
     font-weight: bold;
 }
 
-.Introduccion .linea_decorada i {
-    font-size: 50px;
+
+/*Se le agrega margen inferior a las lineas que estan a los lados de la estrella*/
+
+.presentacion div:nth-child(3) .linea {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 5px;
+    margin-top: 10px;
+    top: 5px;
+    display: inline-block;
+    background-color: white;
+}
+
+.presentacion div:nth-child(3) i {
+    font-size: 24px;
     color: white;
 }
 
-.portafolio .portafolio_titulo ul li a {
+.presentacion div:last-child h3 {
+    margin-top: 17px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+
+/* Fin de estilos de la presentacion*/
+
+
+/*ETIQUETAS PARA LA SECCIÓN PORTAFOLIO*/
+
+.portafolio {
+    position: relative;
+    text-align: center;
+    top: 88px;
+    /*border: 1px blue solid;*/
+    margin-bottom: 104px;
+}
+
+.portafolio div:first-child {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     color: #2C3E50;
     text-transform: uppercase;
 }
 
-.portafolio_titulo .linea_decorada li a hr {
+.portafolio div:nth-child(2) .linea {
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+    background-color: #2C3E50;
+}
+
+.portafolio div:nth-child(2) i {
+    font-size: 24px;
     color: #2C3E50;
 }
 
-.Introduccion li a h3 {
-    font-size: 30px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    padding-top: 1em;
+.portfolio_imagenes .portafolio_fila1 img,
+.portafolio_fila2 img {
+    margin-top: 20px;
+    width: 350px;
+    height: 251px;
 }
 
-* {
-    margin: 0;
-}
 
-hr {
-    height: 1px;
-    width: 800px;
-    border-radius: 5px;
-    background-color: white;
-    margin-left: 0;
-    color: #f8fafc;
-}
 
-.Introduccion .linea_decorada a div {
-    display: inline-block;
-    /*border: 1px blue solid;*/
-    margin-bottom: 10px;
-}
-
-.Introduccion {
+.portfolio_imagenes .portafolio_fila1 li {
+    float: left;
+    padding: 14.2px;
     text-align: center;
-    background-color: #18BC9C;
-    padding: 7em;
 }
 
-.portafolio_fila1 li img {
-    width: 353px;
-    height: 261;
-}
-
-.portafolio_fila2 li img {
-    width: 353px;
-    height: 261;
-}
-
-.portafolio_fila1 li {
+.portfolio_imagenes .portafolio_fila2 li {
     float: left;
-    padding: 1em;
-}
-
-.portafolio_fila2 li {
-    float: left;
-    padding: 1em;
-}
-
-.portafolio_titulo {
+    padding: 14.2px;
     text-align: center;
 }
 
 .portfolio_imagenes {
-    margin-left: 7%;
+    margin-left: 100px;
+    /*border: 1px blue solid;*/
+    padding-bottom: 85px;
 }
 
-.portafolio {
-    padding-top: 7em;
-    padding-bottom: 7em;
-}
 
-.textos_about li p {
-    width: 350px;
-    height: 200px;
-    line-height: 1.5em;
-}
+/* Fin de estilos de la sección portafolio*/
 
-.textos_about li {
-    float: left;
-    padding: 2em;
-}
 
-.titulo_about {
-    text-align: center;
-}
-
-.textos_about {
-    margin-left: 15%;
-}
+/*ETIQUETAS PARA LA SECCIÓN ABOUT*/
 
 .about {
-    background-color: #18BC9C;
-    padding: 5em;
-}
-
-.about_boton {
+    text-align: center;
+    top: 88px;
     /*border: 1px blue solid;*/
-    display: inline-block;
-    padding: 1em;
+    background-color: #18BC9C;
+    font-family: 'Montserrat', sans-serif;
+    padding: 87px;
+    color: white;
 }
 
-.about_boton {
-    text-align: center;
-    margin-left: 32em;
-}
-
-.contact_me {
-    padding: 5em;
-}
-
-.contact_titulo {
-    padding-bottom: 1em;
-    color:#2C3E50;
-}
-.contact_titulo a{
-  text-decoration: none;
-  color:#2C3E50;
-}
-
-.contact_me li {
-    padding: 1em;
-}
-
-.pie_pagina {
-    background-color: #2C3E50;
-}
-
-.titulo_about ul li a h2 {
+.about div:first-child {
+    top: 100px;
+    font-weight: bold;
+    font-size: 30px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    color: white;
 }
 
-.textos_about {
+.about div:nth-child(2) .linea {
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+
+.about_textos p {
+    width: 350px;
+    height: 136px;
+    float: left;
+    padding: 20px;
+    text-underline-position: 10px;
+}
+
+.about_textos {
+    display: inline-block;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    color: white;
+    text-align: left;
+    max-height: 100;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+
+    
 }
 
-.about_boton ul li a {
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    color: white;
-}
 
-.linea {
-    width: 5em;
-    padding: 0.15em;
-}
-
-.Introduccion .linea {
-    background-color: white;
-}
-
-.linea2 {
-    width: 1.5em;
-    padding: 3px;
-    background-color: #2C3E50;
-}
-
-.portafolio .linea_decorada .linea2 {
+.about_boton a {
     display: inline-block;
-    margin-bottom: 0.25em;
-}
-
-.titulo_about .linea {
-    background-color: white;
-}
-
-.about .linea_decorada .linea {
-    display: inline-block;
-    margin-bottom: 0.80em;
-}
-
-.about .linea_decorada i {
-    font-size: 50px;
-    color: white;
-}
-
-.about_boton {
-    font-weight: bold;
-    border-radius: 5px 5px 5px 5px;
-    border-color: white;
-    display: inline-block;
-}
-
-.about_boton li {
-    /*outline: 1px red solid;*/
-    width: 200px;
-    display: block;
     text-align: center;
+    width: 178px;
+    border: 2px white solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: #ffffff;
+    top:18px;
+    position: relative;
+    bottom: 18px;
 }
 
-.contact_titulo {
+.about_boton a:hover {
+    background-color: #ffffff;
+    color: #2C3E50;
+}    
+
+
+/* Fin de estilos de la sección about*/
+
+/*ETIQUETAS PARA LA SECCIÓN CONTACT*/
+.contact_me {
+    text-align: center;
+    top: 88px;
+    /*border: 1px blue solid;*/
     font-family: 'Montserrat', sans-serif;
+    padding: 87px;
+    margin-bottom: 18px;
+}
+
+.contact_me div:first-child {
+    
     font-weight: bold;
-    font-size: 37px;
+    font-size: 30px;
     color: #2C3E50;
     text-transform: uppercase;
     text-align: center;
 }
 
-.contact_formulario {
-    margin-left: 150px;
+.contact_me div:nth-child(2) .linea {
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+    background-color: #2C3E50;
 }
 
-.contact_formulario input {
-    border: none;
+.contact_me div:nth-child(2) i {
+    color: #2C3E50;
+    margin-bottom: 50px;
 }
 
-.esp {
-    margin: 2em;
+.contact_me div:nth-child(3) input {
+
+    display: block;
+    
+    margin-left: 120px;
+    padding-bottom: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30px;
+    width: 840px;
+    
 }
 
-.contact_send {
-    width: 40px;
-    height: 20px;
+    
+
+
+
+
+
+#email{
+    font-size: 20px;
+}
+
+
+
+.contact_send a{
+    display:inline-block;
+
     background-color: #18BC9C;
     border-radius: 5px 5px 5px 5px;
     font-family: 'Montserrat', sans-serif;
+    margin-top:6em;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    /*border: 1px blue solid;*/
+    margin-right:54em;
+    color: #ffffff;
+    font-weight: bold;
+
 }
 
-.contact_send a {
-    color: white;
-}
-
-table {
+.contact_send a:hover{
     background-color: #2C3E50;
-    border: 1px black solid;
-    width: 100%;
-    padding-top: 3em;
-    padding-left: 14em;
-    padding-right: 14em;
-    border: 0;
-}
-
-table td {
-    border: 0;
+    
 }
 
 
-}
-table tr td {
-    width: 28%;
-    border: 1px black solid;
-}
+
+
+
+
+
+/* Fin de estilos de la sección contact*
+/
+
+/*ETIQUETAS PARA LA SECCIÓN FOOTER*/
 footer {
     width: 100%;
     height: 30em;
@@ -353,7 +414,7 @@ footer {
 footer .titulos_tabla {
     text-transform: uppercase;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
 }
 footer .titulos_sencillo {
@@ -383,11 +444,21 @@ footer .tabla2 {
 }
 .linea_decorada .linea {
     display: inline-block;
-    margin-bottom: 15px;
 }
 .contact_me .linea2 {
     display: inline-block;
+    width: 3em;
+    padding: 3px;
+
 }
+
+.contact_me .contact_linea{
+    position: relative;
+    bottom: 2em;
+}
+
+
+
 ::-webkit-input-placeholder { font-size: 16px; }
 ::-moz-placeholder { font-size: 16px; } /* firefox 19+ */
 :-ms-input-placeholder { font-size: 16px; } /* ie */
@@ -395,14 +466,18 @@ input:-moz-placeholder { font-size: 16px; }
 
 
 footer {
+
     box-sizing: border-box;
     /* border: 1px green solid; */
     text-align: center;
     display: block;
     height: 340px;
+    
 }
 .top h2 {
+    text-transform: uppercase;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 .top .columna:last-child p {
     box-sizing: border-box;
@@ -410,6 +485,8 @@ footer {
     margin-left: 40px;
     margin-bottom: 15px;
     text-align: center;
+        line-height: 1.5em;
+
 }
 .top {
     padding-top: 50px;
@@ -520,3 +597,5 @@ footer .columna3{
 .columna2 li{
     float: left;
 } */
+/* Fin de estilos de la sección footer*
+
