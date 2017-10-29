@@ -34,11 +34,14 @@ ul {
 /* Se definen determinados atributos a la cabecera. Color de fondo, padding, uppercase y la fuente*/
 
 .cabecera {
+    position: fixed;
+    width: 100%;
     /*border: 1px blue solid;*/
     background-color: #2C3E50;
     padding: 21px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    z-index: 100;
 }
 
 
@@ -202,7 +205,7 @@ ul {
     /* border: 1px blue solid; */
 }
 
-.portafolio div:nth-child(2) .linea {
+.linea {
     width: 100px;
     height: 5px;
     display: inline-block;
@@ -210,27 +213,62 @@ ul {
     /* border: 1px blue solid; */
 }
 
-.portafolio div:nth-child(2) i {
+.linea_estrella {
     font-size: 24px;
     color: #2C3E50;
     /* border: 1px blue solid; */
 }
 
-.portfolio_imagenes .portafolio_fila1 img,
-.portafolio_fila2 img {
-    width: 350px;
-    height: 251px;
+.portfolio_imagenes a{
+    text-decoration: none;
+    position:relative;
+    display: block;
     /* border: 1px blue solid; */
 }
 
-.portfolio_imagenes .portafolio_fila1 li {
+.portfolio_imagenes a:hover .bloque_color{
+    opacity: 0.9;
+
+}
+
+.portfolio_imagenes img{
+    width: 350px;
+    height: 251px;
+    /* border: 1px blue solid; */
+    
+}
+
+.bloque_color{
+    
+    background-color: #18BC9C;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 251px;
+    align-content: center;
+    transition: opacity 0.2s;
+}
+
+.lupa i{
+    align-self: center;
+    padding-top: 20%;
+    opacity: 1;
+    color:white;
+    font-size: 3em;
+}
+
+
+
+.portafolio_fila1 li {
     float: left;
     padding: 14.2px;
     text-align: center;
     /* border: 1px blue solid; */
 }
 
-.portfolio_imagenes .portafolio_fila2 li {
+.portafolio_fila2 li {
     float: left;
     padding: 14.2px;
     text-align: center;
@@ -239,10 +277,7 @@ ul {
     position: relative;
 }
 
-.portfolio_imagenes .portafolio_fila {
-    left: 5px;
-    position: relative;
-}
+
 
 .portfolio_imagenes {
     margin-left: 100px;
