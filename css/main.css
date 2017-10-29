@@ -153,18 +153,19 @@ ul {
 /*Se le agrega margen inferior a las lineas que estan a los lados de la estrella*/
 
 .presentacion div:nth-child(3) .linea {
-    margin-bottom: 10px;
     width: 100px;
     height: 5px;
-    margin-top: 10px;
-    top: 5px;
     display: inline-block;
+    margin-bottom: 4px;
     background-color: white;
+    /* border: 1px blue solid; */
 }
 
 .presentacion div:nth-child(3) i {
     font-size: 24px;
     color: white;
+    font-weight: bold;
+    /* border: 1px blue solid; */
 }
 
 .presentacion div:last-child h3 {
@@ -173,6 +174,8 @@ ul {
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
+    /* border: 1px blue solid; */
+    font-weight: bold;
 }
 
 
@@ -187,14 +190,16 @@ ul {
     top: 88px;
     /*border: 1px blue solid;*/
     margin-bottom: 104px;
+    /* border: 1px blue solid; */
 }
 
 .portafolio div:first-child {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 30px;
-    color: #2C3E50;
+    color: #212529;
     text-transform: uppercase;
+    /* border: 1px blue solid; */
 }
 
 .portafolio div:nth-child(2) .linea {
@@ -202,38 +207,48 @@ ul {
     height: 5px;
     display: inline-block;
     background-color: #2C3E50;
+    /* border: 1px blue solid; */
 }
 
 .portafolio div:nth-child(2) i {
     font-size: 24px;
     color: #2C3E50;
+    /* border: 1px blue solid; */
 }
 
 .portfolio_imagenes .portafolio_fila1 img,
 .portafolio_fila2 img {
-    margin-top: 20px;
     width: 350px;
     height: 251px;
+    /* border: 1px blue solid; */
 }
-
-
 
 .portfolio_imagenes .portafolio_fila1 li {
     float: left;
     padding: 14.2px;
     text-align: center;
+    /* border: 1px blue solid; */
 }
 
 .portfolio_imagenes .portafolio_fila2 li {
     float: left;
     padding: 14.2px;
     text-align: center;
+    /* border: 1px pink solid; */
+    bottom: 10.2px;
+    position: relative;
+}
+
+.portfolio_imagenes .portafolio_fila {
+    left: 5px;
+    position: relative;
 }
 
 .portfolio_imagenes {
     margin-left: 100px;
     /*border: 1px blue solid;*/
     padding-bottom: 85px;
+    /* border: 1px red solid; */
 }
 
 
@@ -266,8 +281,6 @@ ul {
     background-color: #ffffff;
 }
 
-
-
 .about_textos p {
     width: 350px;
     height: 136px;
@@ -284,10 +297,7 @@ ul {
     max-height: 100;
     line-height: 1.5em;
     margin-bottom: 20px;
-
-    
 }
-
 
 .about_boton a {
     display: inline-block;
@@ -301,20 +311,23 @@ ul {
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
     color: #ffffff;
-    top:18px;
+    top: 18px;
     position: relative;
     bottom: 18px;
 }
 
 .about_boton a:hover {
     background-color: #ffffff;
-    color: #2C3E50;
-}    
+    color:#18BC9C;
+
+}
 
 
 /* Fin de estilos de la sección about*/
 
+
 /*ETIQUETAS PARA LA SECCIÓN CONTACT*/
+
 .contact_me {
     text-align: center;
     top: 88px;
@@ -325,7 +338,6 @@ ul {
 }
 
 .contact_me div:first-child {
-    
     font-weight: bold;
     font-size: 30px;
     color: #2C3E50;
@@ -346,9 +358,7 @@ ul {
 }
 
 .contact_me div:nth-child(3) input {
-
     display: block;
-    
     margin-left: 120px;
     padding-bottom: 30px;
     border-top: none;
@@ -356,156 +366,156 @@ ul {
     border-right: none;
     margin-bottom: 30px;
     width: 840px;
-    
 }
 
-    
+.contact_me div:nth-child(3) input:last-child {
+    padding-bottom: 120px;
+}
 
-
-
-
-
-#email{
+#email {
     font-size: 20px;
 }
 
-
-
-.contact_send a{
-    display:inline-block;
-
+.contact_send a {
+    display: inline-block;
     background-color: #18BC9C;
     border-radius: 5px 5px 5px 5px;
-    font-family: 'Montserrat', sans-serif;
-    margin-top:6em;
+    font-family: 'Lato', sans-serif;
+    margin-top: 6em;
     padding-left: 17.5px;
     padding-right: 17.5px;
     padding-top: 11.5px;
     padding-bottom: 11.5px;
     /*border: 1px blue solid;*/
-    margin-right:54em;
+    margin-right: 54em;
     color: #ffffff;
     font-weight: bold;
+    font-size: 18px;
+
 
 }
 
-.contact_send a:hover{
-    background-color: #2C3E50;
-    
+.contact_send a:hover {
+    background-color: #128F76;
 }
-
-
-
-
-
 
 
 /* Fin de estilos de la sección contact*
 /
 
 /*ETIQUETAS PARA LA SECCIÓN FOOTER*/
+
 footer {
     width: 100%;
     height: 30em;
     background-color: #2C3E50;
     font-family: 'Montserrat', sans-serif;
     color: white;
-}
-footer .titulos_tabla {
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-}
-footer .titulos_sencillo {
-    font-size: 18px;
-    text-align: center;
-}
-footer .tabla2 {
-    margin-top: 5em;
-    padding-bottom: 2em;
-    text-align: center;
-    font-size: 14px;
-}
-.titulos_sencillo a {
-    color: #18BC9C;
-}
-.titulos_sencillo td a {
-    font-size: 20px;
-    margin: 5px;
-    color: white;
-    border-radius: 200px 200px 200px 200px;
-    border-color: 1px white solid;
-}
-.titulos_sencillo span i {
-    width: 30px;
-    height: 30px;
-    /*border-color: 1px red solid;*/
-}
-.linea_decorada .linea {
-    display: inline-block;
-}
-.contact_me .linea2 {
-    display: inline-block;
-    width: 3em;
-    padding: 3px;
-
-}
-
-.contact_me .contact_linea{
-    position: relative;
-    bottom: 2em;
+    /* border:1px green solid; */
+    
 }
 
 
 
-::-webkit-input-placeholder { font-size: 16px; }
-::-moz-placeholder { font-size: 16px; } /* firefox 19+ */
-:-ms-input-placeholder { font-size: 16px; } /* ie */
-input:-moz-placeholder { font-size: 16px; }
+::-webkit-input-placeholder {
+    font-size: 16px;
+}
 
+::-moz-placeholder {
+    font-size: 16px;
+}
+
+
+/* firefox 19+ */
+
+:-ms-input-placeholder {
+    font-size: 16px;
+    /* border:1px green solid; */
+    
+}
+
+
+/* ie */
+
+input:-moz-placeholder {
+    font-size: 16px;
+    /* border:1px green solid; */
+    
+}
 
 footer {
-
     box-sizing: border-box;
     /* border: 1px green solid; */
     text-align: center;
     display: block;
     height: 340px;
+    /* border:1px pink solid; */
     
 }
+
 .top h2 {
     text-transform: uppercase;
     margin-bottom: 30px;
     font-weight: bold;
+    /* border:1px green solid; */
+   
+    
 }
+
 .top .columna:last-child p {
     box-sizing: border-box;
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 15px;
     text-align: center;
-        line-height: 1.5em;
-
+    line-height: 1.5em;
+    /* border:1px green solid; */
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    
 }
+
+.top .columna:first-child p {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    
+}
+
+.top .columna:last-child p a {
+    color:#21B99C;
+    font-weight: bold;
+    
+}
+
 .top {
     padding-top: 50px;
     box-sizing: border-box;
     /* border: 1px pink solid; */
     text-align: center;
+    /* border:1px pink solid; */
+    
 }
+
 .wrapper {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     /* border: 1px red solid; */
+    
+    
 }
+
 .fila {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    /* border:1px pink solid; */
+    
 }
+
 .fila>div {
     display: inline-block;
     box-sizing: border-box;
@@ -517,7 +527,10 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 50px;
+    /* border:1px pink solid; */
+    
 }
+
 .columna ul {
     box-sizing: border-box;
     margin-top: 0;
@@ -525,13 +538,19 @@ footer {
     padding-left: 0;
     padding-right: 0;
     text-align: center;
+    /* border:1px pink solid; */
+    
 }
+
 .columna ul li {
     box-sizing: border-box;
     margin-right: 5px;
     display: inline-block;
     text-align: center;
+    /* border:1px pink solid; */
+    
 }
+
 .columna ul li a {
     box-sizing: border-box;
     width: 50px;
@@ -542,20 +561,25 @@ footer {
     border: 2px white solid;
     padding-top: 13px;
     color: white;
-    transition: background-color 0.3s, width ease-in-out 0.4s,height ease-in-out 0.4s;
-    
+    transition: background-color 0.3s, width ease-in-out 0.4s, height ease-in-out 0.4s;
 }
+
 .columna ul li a:hover {
     background-color: white;
     width: 60px;
     height: 60px;
     color: #128F76;
 }
+
 .bottom {
     /* border: 1px pink solid; */
     padding: 40px;
     max-height: 100;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    
 }
+
 
 /* footer>div {
     width: 30%;
@@ -574,6 +598,7 @@ footer .columna div:last-child {
 footer .columna div ul li {
     display: inline-block;
 } */
+
 
 /* footer .columna1{
     width: 20%;
@@ -597,5 +622,6 @@ footer .columna3{
 .columna2 li{
     float: left;
 } */
-/* Fin de estilos de la sección footer*
 
+
+/* Fin de estilos de la sección footer*
