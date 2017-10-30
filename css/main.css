@@ -560,8 +560,7 @@ footer {
 .fila>div {
     display: inline-block;
     box-sizing: border-box;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
+
     max-width: 33.333333%;
     position: relative;
     width: 380px;
