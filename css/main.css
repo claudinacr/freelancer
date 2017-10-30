@@ -139,6 +139,7 @@ ul {
 /* Se le añade al selector descendiente un padding inferior*/
 
 .logo_bob {
+    margin-top: 5em;
     padding-bottom: 1.2em;
     /*border: 1px magenta solid;*/
 }
