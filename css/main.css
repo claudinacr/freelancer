@@ -428,9 +428,13 @@ ul {
     color: #ffffff;
     font-weight: bold;
     font-size: 18px;
+    position: relative;
+    left: 70px;
+
 
 
 }
+
 
 .contact_send a:hover {
     background-color: #128F76;
